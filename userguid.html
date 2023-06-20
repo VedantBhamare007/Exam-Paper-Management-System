@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/landingpage.css">
+    <style>
+        .user-guide p {
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        
+        ul,
+        ol {
+            font-size: 18px;
+        }
+        
+        .user-guide {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        
+        .user-guide .text-center {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .guide-section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        
+        .guide-section h2 {
+            font-size: 23px;
+            margin-top: 0;
+        }
+        
+        .striped {
+            background-color: #f5f5f5;
+        }
+        
+        .striped:nth-child(even) {
+            background-color: #fff;
+        }
+        
+        img {
+            width: 80px;
+            height: 70px;
+            float: left;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md" id="mainNav">
+        <img src="img/clglogo.png" alt="">
+        <div class="container nm">
+            <a class="navbar-brand js-scroll" href="#page-top">GPN's EPM SYSTEM</a>
+
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="landingpage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">HOD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">Examination Cell</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="userguid.html">User Guide</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="user-guide">
+        <h2 class="text-center">User Guide</h2>
+        <div class="guide-section">
+            <h2>Getting Started</h2>
+            <p>Here are the steps to get started with our exam paper management system:</p>
+            <ol>
+                <li>Select the role you belogs to from navigation links.</li>
+                <li>Click it , and enter the login credentials.</li>
+                <li>Use login credentials provided to you.</li>
+            </ol>
+            </p>
+        </div>
+
+        <div class="guide-section striped">
+            <h2>Faculty</h2>
+            <p>Here are some tips for Faculty:</p>
+            <ul>
+                <li>You can login with your login credentials.</li>
+                <li>You will see the question papers submitted by you.</li>
+                <li>If you didnt submitted any question paper, you can submit it by clicking on Upload a question paper button.</li>
+                <li>You can ddelete or reupload a question paper.</li>
+                <li>Once you have submitted a question paper HOD can review it.</li>
+                <li>HOD can approve or disapprove your question paper, if it is disapproved, hod can give you a reason for that, Based on that reason you can resubmit question paper.</li>
+                <li>If hod approved your question paper it will be sent to examination cell for printing.</li>
+                <li>You can see the status of your question paper in your page.</li>
+                <li>You cant delete or reupload a question paper if they are approved by HOD.</li>
+                <li>You can delete or reupload a question paper if they are disapproved by HOD or until the HOD didnt take any action, means till the status is defaut(-).</li>
+            </ul>
+        </div>
+
+        <div class="guide-section">
+            <h2>HOD</h2>
+            <p>Here are some tips for HOD:</p>
+            <ul>
+                <li>You can login with your login credentials.</li>
+                <li>You will see the question papers submitted by faculty in your page.</li>
+                <li>You can approve or disapprove the question paper submitted by you department facultys.</li>
+                <li>You have to give a reason if you disapproving question paper.</li>
+                <li>Once you disapproved a question paper, faculty can resubmit the que paper and you can check it again.</li>
+                <li>If you approved a question paper, and now you want to disapprove it you can do that also and the question paper is being removed from examination cell also.</li>
+                <li>If you disapprove a question paper and later you want to approve it before faculty can reupload or delete it you can do that also, and the reason you provided will be changed to (-).</li>
+                <li>You can change the name for Head Of Department.</li>
+                <li>You can register a new faculty(Login Credentials).</li>
+                <li>You can update a faculty data based on either course name or course code or both.</li>
+                <li>You can see the all faculty details in Delete Faculty Page, and you can delete a particular faculty login credentials through that page.</li>
+                <li>Once you deleted the faculty detials, that faculty would no longer be able to login to the system.</li>
+            </ul>
+        </div>
+
+        <div class="guide-section striped">
+            <h2>Examination Cell</h2>
+            <p>Here are some tips for HOD:</p>
+            <ul>
+                <li>You can login with your login credentials.</li>
+                <li>You will see the all question papers approved by HOD's.</li>
+                <li>You can see Faculty name , branch , course name, course code and other necessary information.</li>
+                <li>You can directly print the question papers by clicking on print button appearing next to each aproved question paper record.</li>
+                <li>If you approved a question paper, and now you want to disapprove it you can do that also and the question paper is being removed from examination cell also.</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+</body>
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <p class="mb-0">&copy; All Copyrights Reserved to Government Polytechnic Nashik</p>
+        <p class="mb-0"><i class="fa fa-copyright"></i>
+        </p>
+    </div>
+</footer>
+
+</html>

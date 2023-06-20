@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/landingpage.css">
+    <title>Registration Form</title>
+    <style>
+        .hero {
+            background-image: url("img/b.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md" id="mainNav">
+        <img src="img/clglogo.png" alt="">
+
+        <div class="container nm">
+            <a class="navbar-brand js-scroll" href="#page-top">GPN's EPM SYSTEM</a>
+
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="landingpage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">HOD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="lg.php">Examination Cell</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="userguid.html">User Guide</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Welcome to Exam Paper Management System</h1>
+                    <p>
+                        Introducing our web application designed to manage periodic test question papers for different departments. With separate databases for each department, faculty members can easily upload and re-upload their question papers for approval by the Head of
+                        Department. Once approved, the question papers are sent for printing. Our user-friendly interface streamlines the process, making it faster and more convenient for everyone involved.</p>
+                    <a href="userguid.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container1">
+        <h2>Users</h2>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Faculty</h5>
+                    <p class="card-text">Faculty members are responsible for creating and submitting question papers for their respective courses. With our system, they can track the status of their submissions.</p>
+                    <a href="lg.php" class="btn btn-primary">Login</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">HOD</h5>
+                    <p class="card-text">The HOD is responsible for reviewing the question papers submitted by faculty members in their department. They have the power to approve or disapprove question papers.</p>
+                    <a href="lg.php" class="btn btn-primary">Login</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Examination Cell</h5>
+                    <p class="card-text">The examination cell is responsible for printing the approved question papers and distributing them to students. With our system, they have access to all the approved question papers from all the departments.</p>
+                    <a href="lg.php" class="btn btn-primary">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row feature-row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Secure Login</h4>
+                        <p>All users (faculty, hod, and examination cell) can securely log in with their respective roles and permissions to access the system.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>User-Friendly Interface</h4>
+                        <p>Faculty can easily upload and manage question papers, track their status, and re-upload if necessary.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Approval System</h4>
+                        <p>HOD can approve or disapprove submitted question papers, with the ability to provide reasons for disapproval.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row feature-row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Direct Integration</h4>
+                        <p>Approved question papers are directly integrated with the examination cell for easy printing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>DBMS</h4>
+                        <p>HOD can manage faculty login credentials, register new faculty, and update data based on course name or code.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Robust Security Measures</h4>
+                        <p>The system is equipped with robust security measures to protect sensitive information and prevent unauthorized access.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row feature-row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Time-saving</h4>
+                        <p>The system saves time for the examination cell as they do not need to manually collect question papers from each department.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>Printing</h4>
+                        <p>System ensures that only approved question papers are sent to the examination cell for printing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h4>University Limitation</h4>
+                        <p>The system is limited to use within a college or university and cannot be used outside the institution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p class="mb-0">&copy; All Copyrights Reserved to Government Polytechnic Nashik</p>
+        <p class="mb-0"><i class="fa fa-copyright"></i>
+        </p>
+    </div>
+</footer>
+
+</html>
