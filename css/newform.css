@@ -1,0 +1,78 @@
+.form-container {
+    background-color: #87cefa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 75%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+body {
+    background-color: #fff;
+}
+
+label,
+.l1 {
+    color: #000;
+}
+
+h2 {
+    margin: 8px 0 16px 3px;
+}
+
+label,
+input,
+.l1 {
+    font-size: 22px;
+    padding: 5px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    /* Change the font family to Arial or a sans-serif font */
+    font-size: 22px;
+    /* Change the font size to 16px */
+}
+
+button.btn-primary {
+    background-color: rgb(49, 49, 254);
+    border-color: blue;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color: rgb(49, 49, 254);
+    border-color: blue;
+}
+
+.custom-radio .custom-control-label {
+    font-size: 22px;
+}
+
+input[type="radio"],
+label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input[type="radio"],
+.custom-control-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn-outline-primary {
+    visibility: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}

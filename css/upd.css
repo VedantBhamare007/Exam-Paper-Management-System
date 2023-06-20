@@ -1,0 +1,136 @@
+.form-container {
+    background-color: #87cefa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 75%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+body {
+    background-image: url("img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label,
+.l1 {
+    color: #000;
+}
+
+h2 {
+    margin: 8px 0 16px 3px;
+}
+
+label,
+input,
+.l1 {
+    font-size: 22px;
+    padding: 5px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    /* Change the font family to Arial or a sans-serif font */
+    font-size: 22px;
+    /* Change the font size to 16px */
+}
+
+button.btn-primary {
+    background-color: rgb(49, 49, 254);
+    border-color: blue;
+}
+
+label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.form-check-label {
+    margin-right: 100px;
+}
+
+
+/* Style the file input element */
+
+
+/* .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+} */
+
+
+/* Style the label element */
+
+.input-group-text {
+    background-color: rgb(49, 49, 254);
+    border-color: blue;
+    color: #fff;
+}
+
+
+/* Style the label element on hover and focus */
+
+
+/* .input-group-text:hover,
+.input-group-text:focus {
+    background-color: #0062cc;
+color: #fff;
+border-color: #005cbf; 
+    color: orange;
+}  */
+
+
+/* Style the label element when the file input has a file selected */
+
+
+/* .input-group-text:active,
+.input-group-text.active,
+.input-group-text:focus {
+    color: pink;
+} */
+
+::file-selector-button {
+    display: none;
+}
+
+input#inputGroupFile02 {
+    background-color: transparent;
+    color: black;
+}
+
+input#inputGroupFile02.form-control.button {
+    color: pink;
+}
+
+.input-group {
+    margin: 5% 0 4% 0;
+}
+
+.upbt {
+    margin-top: 3%;
+}
+
+.btn-outline-primary {
+    visibility: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.h3 {
+    text-align: center;
+    color: #006de1;
+    margin: 0.7% 0 0 0.7%;
+}
