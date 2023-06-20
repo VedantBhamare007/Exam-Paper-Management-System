@@ -52,7 +52,7 @@ If you have any questions, suggestions, or feedback, feel free to reach out to t
 - vedantbhamare007@gmail.com
 - knightr2004@gmail.com
 - suyashdashputre@gmail.com
-
+- vspatil2004@gmail.com
 
 Thank you for your interest in the Exam Paper Management System project!
 
