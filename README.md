@@ -41,6 +41,8 @@ npm start
 I would like to acknowledge the following individuals for their contributions to the Exam Paper Management System project:
 
 - [Vedant Bhamare](https://github.com/VedantBhamare007/)
+- [Sahil Bhoye](https://github.com/Sahil-1217)
+- [Raj Bodke](https://github.com/RajBodke)
 - [Suyash Dashputre](https://github.com/suyashcodes)
 - [Vedant Patil](https://github.com/Vedant-Patil-007)
 
