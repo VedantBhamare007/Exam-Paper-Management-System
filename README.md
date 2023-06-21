@@ -51,6 +51,7 @@ I appreciate the time and effort put in by each contributor to make this project
 If you have any questions, suggestions, or feedback, feel free to reach out to the project team at
 - vedantbhamare007@gmail.com
 - knightr2004@gmail.com
+- rajbodke18110@gmail.com
 - suyashdashputre@gmail.com
 - vspatil2004@gmail.com
 
